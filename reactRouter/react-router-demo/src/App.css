@@ -1,0 +1,32 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.link {
+  margin: 10px 20px 10px;
+  padding: 5px
+}
+
+nav>.link-secondary {
+  background-color: #374450;
+  padding: 16px 20px;
+  margin: 0px;
+}
+
+.headers {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  margin: 100px;
+}
+
+.link-secondary.active {
+  text-decoration: underline;
+  font-weight: bold;
+  color: rgb(72, 107, 172);
+}
+
+.secondary-header {
+  background-color: #374450;
+}

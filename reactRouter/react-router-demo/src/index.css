@@ -1,0 +1,98 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #8cb381;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #e03214;
+}
+
+body {
+  margin: 0 auto;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  margin: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #0dbdd4;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+nav {
+  background-color: #213547;
+  padding: 16px 20px;
+}
+
+
+
+nav a.active {
+  text-decoration: underline;
+  font-weight: bolder;
+  color: rgb(72, 107, 172);
+}
+
+input {
+  max-width: 500px;
+  margin: 40px;
+  font-size: max(16px, 1em);
+  font-family: inherit;
+  padding: 0.25em 0.5em;
+  color: whitesmoke;
+  background-color: rgb(102, 92, 92);
+  border: 2px solid var(--input-border);
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #232bc4;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #df2c15;
+  }
+
+  button {
+    background-color: #08c4c4;
+  }
+}
