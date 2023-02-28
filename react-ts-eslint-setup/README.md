@@ -1,6 +1,6 @@
 # All commands and files to setup eslint and prettier
 
-## 1. eslin config
+## 1. eslint config
 
 ```javascript
 npm init @eslint/config@latest
