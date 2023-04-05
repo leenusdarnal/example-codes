@@ -1,0 +1,120 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Event 1",
+      "description": " Descrription 1",
+      "category": "sports",
+      "date": "April 25"
+    },
+    {
+      "id": 2,
+      "title": "Event 2",
+      "description": " Descrription 2",
+      "category": "technology",
+      "date": "May 25"
+    },
+    {
+      "id": 3,
+      "title": "Event3 ",
+      "description": " Descrription 3",
+      "category": "food",
+      "date": "October 25"
+    },
+    {
+      "id": 4,
+      "title": "Event 4",
+      "description": " Descrription 4",
+      "category": "sports",
+      "date": "April 25"
+    },
+    {
+      "id": 5,
+      "title": "Event 5",
+      "description": " Descrription 5",
+      "category": "sports",
+      "date": "January 25"
+    },
+    {
+      "id": 6,
+      "title": "Event 6 ",
+      "description": " Descrription 6",
+      "category": "art",
+      "date": "April 25"
+    },
+    {
+      "id": 7,
+      "title": "Event 7",
+      "description": " Descrription 7",
+      "category": "technology",
+      "date": "June 25"
+    },
+    {
+      "id": 8,
+      "title": "Event 8 ",
+      "description": " Descrription 8",
+      "category": "sports",
+      "date": "february 28"
+    },
+    {
+      "id": 9,
+      "title": "Event 9",
+      "description": " Descrription 9",
+      "category": "food",
+      "date": "March 24"
+    },
+    {
+      "id": 10,
+      "title": "Event 10",
+      "description": " Descrription `0",
+      "category": "politics",
+      "date": "December 25"
+    }
+  ],
+  "dashboard": {
+    "post": 5,
+    "likes": 1669999990,
+    "follower": 26543453450,
+    "following": 57452721727272174170
+  },
+  "news": [
+    {
+      "id": 1,
+      "title": "News Article 1",
+      "description": " New Description 1",
+      "category": "sports"
+    },
+    {
+      "id": 2,
+      "title": "News Article 2",
+      "description": "Description 2",
+      "category": "politics"
+    },
+    {
+      "id": 3,
+      "title": "News Article 3",
+      "description": "Description 3",
+      "category": "sports"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "product1",
+      "price": 5055555,
+      "description": "description 1"
+    },
+    {
+      "id": 2,
+      "title": "product2",
+      "price": 66,
+      "description": "description 2"
+    },
+    {
+      "id": 3,
+      "title": "product3",
+      "price": 98,
+      "description": "description 3"
+    }
+  ]
+}
