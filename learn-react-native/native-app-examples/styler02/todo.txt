@@ -1,0 +1,2 @@
+
+10/57 -organising you react native project with multifile component
