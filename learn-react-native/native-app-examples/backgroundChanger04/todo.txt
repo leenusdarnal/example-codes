@@ -1,1 +1,0 @@
-27/57 -> react native app with debugging in 1 shot | project 4
