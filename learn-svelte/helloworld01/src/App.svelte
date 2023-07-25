@@ -1,9 +1,16 @@
 <script lang="ts">
+  import CheckBoxBinding from './Bindings/CheckBoxBinding.svelte'
+  import GroupBinding from './Bindings/GroupBinding.svelte'
+  import InputBinding from './Bindings/InputBinding.svelte'
+  import NumberInput from './Bindings/NumberInput.svelte'
+  import SelectBinding from './Bindings/SelectBinding.svelte'
+  import SelectMultiple from './Bindings/SelectMultiple.svelte'
+  import TextareaBinding from './Bindings/TextareaBinding.svelte'
+  import AwaitRandomNumber from './Events/AwaitRandomNumber.svelte'
   import Color from './Events/Color.svelte'
   import Counted from './Events/Counted.svelte'
   import Counter from './Events/Counter.svelte'
   import EventDispatcher from './Events/EventDispatcher.svelte'
-  import AwaitRandomNumber from './Events/AwaitRandomNumber.svelte'
   import PressBigButton from './Events/PressBigButton.svelte'
   import RemoveThings from './Events/RemoveThings.svelte'
 </script>
@@ -27,9 +34,24 @@
 <hr />
 <PressBigButton />
 <hr />
+<InputBinding />
+<hr />
+<NumberInput />
+<hr />
+<CheckBoxBinding />
+<hr />
+<SelectBinding />
+<hr />
+<GroupBinding />
+<hr />
+<SelectMultiple />
+<hr />
+<TextareaBinding />
 
 <style>
   hr {
     margin-top: 2em;
+    border: 3px solid green;
+    width: 800px;
   }
 </style>
