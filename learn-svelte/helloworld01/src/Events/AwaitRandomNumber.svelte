@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { getRandomNumber } from './lib/util'
+  import { getRandomNumber } from '../lib/util'
 
   let promise = getRandomNumber()
 

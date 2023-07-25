@@ -1,11 +1,11 @@
 <script lang="ts">
-  import AwaitRandomNumber from './AwaitRandomNumber.svelte'
-  import Color from './Color.svelte'
-  import Counted from './Counted.svelte'
-  import Counter from './Counter.svelte'
-  import DomEventMouse from './DomEventMouse.svelte'
-  import EventDispatcher from './EventDispatcher.svelte'
-  import RemoveThings from './RemoveThings.svelte'
+  import Color from './Events/Color.svelte'
+  import Counted from './Events/Counted.svelte'
+  import Counter from './Events/Counter.svelte'
+  import EventDispatcher from './Events/EventDispatcher.svelte'
+  import AwaitRandomNumber from './Events/AwaitRandomNumber.svelte'
+  import PressBigButton from './Events/PressBigButton.svelte'
+  import RemoveThings from './Events/RemoveThings.svelte'
 </script>
 
 <Counter />
@@ -24,6 +24,9 @@
 <button type="button" on:click|once={() => alert('WTF')}> CLick ME </button>
 <hr />
 <EventDispatcher />
+<hr />
+<PressBigButton />
+<hr />
 
 <style>
   hr {

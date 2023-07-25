@@ -1,1 +1,1 @@
-https://learn.svelte.dev/tutorial/spread-props
+https://learn.svelte.dev/tutorial/event-forwarding
