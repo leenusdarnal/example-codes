@@ -13,6 +13,9 @@
   import EventDispatcher from './Events/EventDispatcher.svelte'
   import PressBigButton from './Events/PressBigButton.svelte'
   import RemoveThings from './Events/RemoveThings.svelte'
+  import BeforeUpdate from './LifeCycles/BeforeUpdate.svelte'
+  import OnMount from './LifeCycles/OnMount.svelte'
+  import TickLifeCycle from './LifeCycles/TickLifeCycle.svelte'
 </script>
 
 <Counter />
@@ -47,6 +50,12 @@
 <SelectMultiple />
 <hr />
 <TextareaBinding />
+<hr />
+<!-- <OnMount /> -->
+<hr />
+<BeforeUpdate />
+<hr />
+<TickLifeCycle />
 
 <style>
   hr {
