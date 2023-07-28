@@ -16,9 +16,14 @@
   import BeforeUpdate from './LifeCycles/BeforeUpdate.svelte'
   import OnMount from './LifeCycles/OnMount.svelte'
   import TickLifeCycle from './LifeCycles/TickLifeCycle.svelte'
+  import BindingStore from './Stores/BindingStore.svelte'
+  import CustomStore from './Stores/CustomStore.svelte'
+  import DerivedStore from './Stores/DerivedStore.svelte'
+  import ReadableStore from './Stores/ReadableStore.svelte'
+  import WritableStore from './Stores/WritableStore.svelte'
 </script>
 
-<Counter />
+<!-- <Counter />
 <hr />
 <Counted />
 <hr />
@@ -27,11 +32,11 @@
 <RemoveThings />
 <hr />
 <AwaitRandomNumber />
-<hr />
+<hr /> -->
 <!-- <DomEventMouse /> -->
 
 <!-- Event Modifier -->
-<button type="button" on:click|once={() => alert('WTF')}> CLick ME </button>
+<!-- <button type="button" on:click|once={() => alert('WTF')}> CLick ME </button>
 <hr />
 <EventDispatcher />
 <hr />
@@ -50,12 +55,23 @@
 <SelectMultiple />
 <hr />
 <TextareaBinding />
-<hr />
+<hr /> -->
 <!-- <OnMount /> -->
-<hr />
+<!-- <hr />
 <BeforeUpdate />
 <hr />
-<TickLifeCycle />
+<TickLifeCycle /> -->
+
+<!-- Stores -->
+<WritableStore />
+<hr />
+<ReadableStore />
+<hr />
+<DerivedStore />
+<hr />
+<CustomStore />
+<hr />
+<BindingStore />
 
 <style>
   hr {
