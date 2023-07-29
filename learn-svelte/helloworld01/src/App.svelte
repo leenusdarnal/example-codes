@@ -21,6 +21,7 @@
   import DerivedStore from './Stores/DerivedStore.svelte'
   import ReadableStore from './Stores/ReadableStore.svelte'
   import WritableStore from './Stores/WritableStore.svelte'
+  import Tweens from './advance/Motion/Tweens.svelte'
 </script>
 
 <!-- <Counter />
@@ -63,6 +64,7 @@
 <TickLifeCycle /> -->
 
 <!-- Stores -->
+<!-- 
 <WritableStore />
 <hr />
 <ReadableStore />
@@ -71,7 +73,11 @@
 <hr />
 <CustomStore />
 <hr />
-<BindingStore />
+<BindingStore /> -->
+
+<!-- Advanced -->
+<Tweens />
+<hr />
 
 <style>
   hr {

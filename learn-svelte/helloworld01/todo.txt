@@ -1,3 +1,6 @@
+advanced section  
 https://learn.svelte.dev/tutorial/tweens
+
+Resume after some svelte coding
 
 https://www.youtube.com/watch?v=w7is2bCTUg0
