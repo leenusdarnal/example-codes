@@ -7,38 +7,41 @@ const dir = [
 function walk(
     maze: string[],
     wall: string,
-    current: Point,
+    curr: Point,
     end: Point,
     seen: boolean[][],
     path: Point[],
 ): boolean {
-    //1.Base Case
-    // off the map
+    // 1.Base case
+    // off the mapp
     if (
-        current.x < 0 ||
-        current.x >= maze[0].length ||
-        current.y < 0 ||
-        current.y >= maze.length
+        curr.x < 0 ||
+        curr.x >= maze[0].length ||
+        curr.y < 0 ||
+        curr.y >= maze.length
     ) {
         return false;
     }
-    // on a wall
-    if (maze[current.x][current.y] === wall) {
+
+    // on a wall  check if it os xy or yz to access the data of maze
+    if (maze[curr.y][curr.x] === wall) {
         return false;
     }
-    // at the end
-    if (current.x === end.x && current.y === end.y) {
+    // are we at the end
+    if (curr.x === end.x && curr.y === end.y) {
         path.push(end);
         return true;
     }
-    if (seen[current.y][current.x]) {
+    // Is seen y= y-axis x=x axis of the 2d array so seen[y][x]  y=row[i]  x= col[j]
+    if (seen[curr.y][curr.x]) {
         return false;
     }
-    // 3 recurse
+    // 3  steps of recursion
     // pre
-    seen[current.y][current.x] = true;
-    path.push(current);
-    // recurse
+    seen[curr.y][curr.x] = true;
+    path.push(curr);
+
+    // recures
     for (let i = 0; i < dir.length; i++) {
         const [x, y] = dir[i];
         if (
@@ -46,8 +49,8 @@ function walk(
                 maze,
                 wall,
                 {
-                    x: current.x + x,
-                    y: current.y + y,
+                    x: curr.x + x,
+                    y: curr.y + y,
                 },
                 end,
                 seen,
@@ -57,7 +60,6 @@ function walk(
             return true;
         }
     }
-
     // post
     path.pop();
     return false;
