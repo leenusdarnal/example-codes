@@ -22,6 +22,7 @@
   import ReadableStore from './Stores/ReadableStore.svelte'
   import WritableStore from './Stores/WritableStore.svelte'
   import Tweens from './advance/Motion/Tweens.svelte'
+  import Springs from './advance/Motion/Springs.svelte'
 </script>
 
 <!-- <Counter />
@@ -78,6 +79,7 @@
 <!-- Advanced -->
 <Tweens />
 <hr />
+<Springs />
 
 <style>
   hr {
