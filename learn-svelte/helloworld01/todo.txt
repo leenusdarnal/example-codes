@@ -1,5 +1,5 @@
 advanced section  
-https://learn.svelte.dev/tutorial/tweens
+https://learn.svelte.dev/tutorial/custom-css-transitions
 
 Resume after some svelte coding
 

@@ -23,6 +23,9 @@
   import WritableStore from './Stores/WritableStore.svelte'
   import Tweens from './advance/Motion/Tweens.svelte'
   import Springs from './advance/Motion/Springs.svelte'
+  import Fade from './advance/Motion/Fade.svelte'
+  import Fly from './advance/Motion/Fly.svelte'
+  import FadeNFly from './advance/Motion/FadeNFly.svelte'
 </script>
 
 <!-- <Counter />
@@ -79,7 +82,12 @@
 <!-- Advanced -->
 <Tweens />
 <hr />
-<Springs />
+<!-- <Springs /> -->
+<Fade />
+<hr />
+<Fly />
+<hr />
+<FadeNFly />
 
 <style>
   hr {
