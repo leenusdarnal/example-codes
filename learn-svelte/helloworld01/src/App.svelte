@@ -88,6 +88,7 @@
 <Fly />
 <hr />
 <FadeNFly />
+<hr />
 
 <style>
   hr {
