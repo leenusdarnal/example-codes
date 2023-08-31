@@ -10,7 +10,7 @@ function walk(
     }
     seen[curr] = true;
 
-    // recurs
+    // recurse
     // pre
     path.push(curr);
     if (curr === needle) {
@@ -21,7 +21,6 @@ function walk(
     for (let i = 0; i < list.length; i++) {
         const edge = list[i];
         if (walk(graph, edge.to, needle, seen, path)) {
-            path.push(edge.to);
             return true;
         }
     }
