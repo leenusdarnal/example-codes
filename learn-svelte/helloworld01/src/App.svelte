@@ -26,6 +26,8 @@
   import Fade from './advance/Motion/Fade.svelte'
   import Fly from './advance/Motion/Fly.svelte'
   import FadeNFly from './advance/Motion/FadeNFly.svelte'
+  import CustomCssTransitions from './advance/Motion/transition/customCssTransitions.svelte'
+  import Todo from './advance/Motion/transition/todos/Todo.svelte'
 </script>
 
 <!-- <Counter />
@@ -80,15 +82,18 @@
 <BindingStore /> -->
 
 <!-- Advanced -->
-<Tweens />
-<hr />
+<!-- <Tweens /> -->
+<!-- <hr /> -->
 <!-- <Springs /> -->
-<Fade />
+<!-- <Fade /> -->
+<!-- <hr /> -->
+<!-- <Fly /> -->
+<!-- <hr /> -->
+<!-- <FadeNFly /> -->
+<!-- <hr /> -->
+<!-- <CustomCssTransitions /> -->
 <hr />
-<Fly />
-<hr />
-<FadeNFly />
-<hr />
+<Todo />
 
 <style>
   hr {

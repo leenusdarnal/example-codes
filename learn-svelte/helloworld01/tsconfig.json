@@ -20,7 +20,8 @@
     "src/**/*.ts",
     "src/**/*.js",
     "src/**/*.svelte",
-    "src/lib/util.ts"
+    "src/lib/util.ts",
+    "src/advance/Motion/transition/todos/todos.ts"
   ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
