@@ -28,6 +28,8 @@
   import FadeNFly from './advance/Motion/FadeNFly.svelte'
   import CustomCssTransitions from './advance/Motion/transition/customCssTransitions.svelte'
   import Todo from './advance/Motion/transition/todos/Todo.svelte'
+  import ColorCanvas from './advance/action/ColorCanvas.svelte'
+  import Dimension from './advance/Dimension.svelte'
 </script>
 
 <!-- <Counter />
@@ -92,8 +94,12 @@
 <!-- <FadeNFly /> -->
 <!-- <hr /> -->
 <!-- <CustomCssTransitions /> -->
-<hr />
-<Todo />
+<!-- <hr /> -->
+<!-- <Todo /> -->
+<!-- <hr /> -->
+<!-- <ColorCanvas /> -->
+<!-- <hr /> -->
+<Dimension />
 
 <style>
   hr {
