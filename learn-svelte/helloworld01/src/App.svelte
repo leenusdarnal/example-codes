@@ -99,7 +99,7 @@
 <!-- <hr /> -->
 <!-- <ColorCanvas /> -->
 <!-- <hr /> -->
-<Dimension />
+<!-- <Dimension /> -->
 
 <style>
   hr {
