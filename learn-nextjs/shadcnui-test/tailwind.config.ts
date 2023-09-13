@@ -16,6 +16,10 @@ module.exports = {
       },
     },
     extend: {
+      background: {
+        "hero-image":
+          "url('/home/yetano/Desktop/codeRepos/ExampleCodes/learn-nextjs/shadcnui-test/src/images/mountain.webp')",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -73,4 +77,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-};
+}
