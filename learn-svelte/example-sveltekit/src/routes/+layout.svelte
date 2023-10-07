@@ -2,4 +2,6 @@
 	import '../app.css'
 </script>
 
-<slot />
+<div class="m-[30%] text-3xl">
+	<slot />
+</div>

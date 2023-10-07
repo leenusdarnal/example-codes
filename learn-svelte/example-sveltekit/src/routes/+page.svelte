@@ -1,2 +1,4 @@
-<h1 class=" text-6xl hover:text-green-950">Hoem Page => Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>Hello World</h1>
+
+<a href="blog">Blog</a>
+<a href="products">Products</a>
