@@ -20,4 +20,4 @@
 <a href="blog">Blog</a>
 <a href="products">Products</a>
 
-<button class="rounded-lg bg-zinc-950 p-1 text-white" on:click={handleClick}>Place Order</button>
+<button class="rounded-lg bg-zinc-950 p-2 text-white" on:click={handleClick}>Place Order</button>

@@ -1,0 +1,14 @@
+{
+	"products": [
+		{ "id": "1", "title": "Product 1", "price": 99, "description": "This is product 1." },
+		{ "id": "2", "title": "Product 2", "price": 89, "description": "This is product 2." },
+		{ "id": "3", "title": "Product 3", "price": 79, "description": "This is product 3." },
+		{ "id": "4", "title": "Product 4", "price": 69, "description": "This is product 4." },
+		{ "id": "5", "title": "Product 5", "price": 59, "description": "This is product 5." },
+		{ "id": "6", "title": "Product 6", "price": 49, "description": "This is product 6." },
+		{ "id": "7", "title": "Product 7", "price": 39, "description": "This is product 7." },
+		{ "id": "8", "title": "Product 8", "price": 29, "description": "This is product 8." },
+		{ "id": "9", "title": "Product 9", "price": 19, "description": "This is product 9." },
+		{ "id": "10", "title": "Product 10", "price": 9, "description": "This is product 10." }
+	]
+}
