@@ -1,15 +1,14 @@
 <script lang="ts">
 	export let data
-	const { products } = data
+	const { products, Component, title } = data
 </script>
 
 <a href="/">Home Page</a>
-<h1>{data.title}</h1>
+<h1>{title}</h1>
 
 {#each products as product}
 	<div>
-		<div>{product.title}</div>
-		<p>{product.description}</p>
+		<Component {product} />
 	</div>
 	<hr />
 {/each}
