@@ -5,7 +5,7 @@ import type { Load } from '@sveltejs/kit'
 
 export const load: Load = async (loadEvent) => {
 	const { data } = loadEvent
-	console.log(`Load function browser:${browser}`)
+	console.log(`Load function browser page.ts[products]:${browser}`)
 	// const title = 'List of available products'
 	// const response = await fetch('http://127.0.0.1:4000/products')
 	// const products = await response.json()
@@ -19,3 +19,4 @@ export const load: Load = async (loadEvent) => {
 		notification
 	}
 }
+export const prerender = true
