@@ -1,10 +1,12 @@
 <script lang="ts">
+	import { enhance } from '$app/forms'
 	import { page } from '$app/stores'
 	export let form
 	const redirectTo = $page.url.searchParams.get('redirectTo') || '/'
 </script>
 
 <form
+	use:enhance
 	method="post"
 	action="?/login&redirectTo={redirectTo}"
 	class="flex w-96 flex-col items-center justify-center gap-10"
@@ -23,9 +25,7 @@
 		name="password"
 		placeholder="password"
 	/>
-	<button class="w-full rounded bg-slate-800 p-2 text-white" type="submit"
-		>Login</button
-	>
+	<button class="w-full rounded bg-slate-800 p-2 text-white" type="submit">Login</button>
 	<button
 		class="w-full rounded bg-slate-800 p-2 text-white"
 		type="submit"
