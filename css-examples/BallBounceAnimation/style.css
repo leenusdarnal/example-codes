@@ -28,7 +28,8 @@
 
 
 .stage:hover .ball {
-  animation: slide 2s linear;
+
+  animation: slide 2500ms linear 0.50s infinite alternate;
 }
 
 .ball {
