@@ -9,33 +9,36 @@ dependencies:
     specifier: 14.0.0
     version: 14.0.0(react-dom@18.2.0)(react@18.2.0)
   react:
-    specifier: ^18
+    specifier: ^18.2.0
     version: 18.2.0
   react-dom:
-    specifier: ^18
+    specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
 
 devDependencies:
   '@types/node':
-    specifier: ^20
+    specifier: ^20.8.9
     version: 20.8.9
   '@types/react':
-    specifier: ^18
+    specifier: ^18.2.33
     version: 18.2.33
   '@types/react-dom':
-    specifier: ^18
+    specifier: ^18.2.14
     version: 18.2.14
   autoprefixer:
-    specifier: ^10
+    specifier: ^10.4.16
     version: 10.4.16(postcss@8.4.31)
+  clsx:
+    specifier: ^2.0.0
+    version: 2.0.0
   eslint:
-    specifier: ^8
+    specifier: ^8.52.0
     version: 8.52.0
   eslint-config-next:
     specifier: 14.0.0
     version: 14.0.0(eslint@8.52.0)(typescript@5.2.2)
   postcss:
-    specifier: ^8
+    specifier: ^8.4.31
     version: 8.4.31
   prettier:
     specifier: ^3.0.3
@@ -43,11 +46,14 @@ devDependencies:
   prettier-plugin-tailwindcss:
     specifier: ^0.5.6
     version: 0.5.6(prettier@3.0.3)
+  tailwind-merge:
+    specifier: ^1.14.0
+    version: 1.14.0
   tailwindcss:
-    specifier: ^3
+    specifier: ^3.3.5
     version: 3.3.5
   typescript:
-    specifier: ^5
+    specifier: ^5.2.2
     version: 5.2.2
 
 packages:
@@ -645,6 +651,11 @@ packages:
   /client-only@0.0.1:
     resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==}
     dev: false
+
+  /clsx@2.0.0:
+    resolution: {integrity: sha512-rQ1+kcj+ttHG0MKVGBUXwayCCF1oh39BF5COIpRzuCEv8Mwjv0XucrI2ExNTOn9IlLifGClWQcU9BrZORvtw6Q==}
+    engines: {node: '>=6'}
+    dev: true
 
   /color-convert@2.0.1:
     resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}
@@ -2433,6 +2444,10 @@ packages:
   /supports-preserve-symlinks-flag@1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+    dev: true
+
+  /tailwind-merge@1.14.0:
+    resolution: {integrity: sha512-3mFKyCo/MBcgyOTlrY8T7odzZFx+w+qKSMAmdFzRvqBfLlSigU6TZnlFHK0lkMwj9Bj8OYU+9yW9lmGuS0QEnQ==}
     dev: true
 
   /tailwindcss@3.3.5:

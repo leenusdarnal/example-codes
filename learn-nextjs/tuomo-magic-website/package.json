@@ -10,20 +10,22 @@
   },
   "dependencies": {
     "next": "14.0.0",
-    "react": "^18",
-    "react-dom": "^18"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10",
-    "eslint": "^8",
+    "@types/node": "^20.8.9",
+    "@types/react": "^18.2.33",
+    "@types/react-dom": "^18.2.14",
+    "autoprefixer": "^10.4.16",
+    "clsx": "^2.0.0",
+    "eslint": "^8.52.0",
     "eslint-config-next": "14.0.0",
-    "postcss": "^8",
+    "postcss": "^8.4.31",
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.6",
-    "tailwindcss": "^3",
-    "typescript": "^5"
+    "tailwind-merge": "^1.14.0",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.2.2"
   }
 }
