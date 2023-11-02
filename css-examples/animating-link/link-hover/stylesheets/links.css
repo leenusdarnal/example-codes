@@ -1,0 +1,53 @@
+/* Styles for the links */
+
+a {
+  color: #2f56b0;
+  text-decoration: none;
+  position: relative;
+  transition: color .4s ease-out;
+}
+
+a::after {
+  border-radius: 1em;
+  border-top: .1em solid #2f56b0;
+  content: '';
+  position: absolute;
+  right: 100%;
+  bottom: .14em;
+  left: 0;
+  transition: right .4s cubic-bezier(0, .5, 0, 1), border-color .4s ease-out;
+
+}
+
+a:hover {
+  color: #457dfb;
+  text-decoration: none;
+}
+
+a:hover::after {
+  animation: anchor-underline 2s cubic-bezier(0, .5, 0, 0.1) infinite;
+  border-color: #457dfb;
+
+}
+
+
+@keyframes anchor-underline {
+
+  0%,
+  10% {
+    left: 0;
+    right: 100%;
+  }
+
+  40%,
+  60% {
+    left: 0;
+    right: 0;
+  }
+
+  90%,
+  100% {
+    left: 100%;
+    right: 0;
+  }
+}
