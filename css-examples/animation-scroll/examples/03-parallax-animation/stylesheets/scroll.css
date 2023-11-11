@@ -1,0 +1,9 @@
+header {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+  width: 100vw;
+}

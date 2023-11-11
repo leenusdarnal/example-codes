@@ -1,0 +1,25 @@
+@import "../../../../stylesheets/settings";
+@import "../../../../stylesheets/default";
+
+/* Overrides for the links examples */
+
+p {
+  font-size: 24px !important;
+}
+
+/* Styles for the links */
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.content .calls-to-action {
+  display: flex;
+  justify-content: center;
+}

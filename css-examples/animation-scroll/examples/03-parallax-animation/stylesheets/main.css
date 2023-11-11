@@ -1,0 +1,27 @@
+@import "../../../../stylesheets/settings";
+@import "../../../../stylesheets/default";
+
+html, body {
+  background: #eef;
+  background-image: linear-gradient(to bottom, #ccf, #fff);
+  color: #333;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.content {
+  margin: 10em auto;
+  max-width: 740px;
+  width: 80%;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+p {
+  font-size: 3em;
+  margin: 6em auto;
+}
