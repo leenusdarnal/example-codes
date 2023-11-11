@@ -1,0 +1,102 @@
+header {
+  align-items: center;
+  background: #000 url(../images/moon.jpg) center no-repeat;
+  background-size: 100% auto;
+  display: flex;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+  width: 100vw;
+}
+
+header:after {
+  content: "";
+  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+  position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.example-logo {
+  z-index: 10;
+}
+
+.heading {
+  color: white;
+  font-size: 10em;
+  line-height: 1;
+  margin: 0;
+  position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 10vh;
+  text-align: center;
+}
+
+.content {
+  position: relative;
+}
+
+.content p {
+  transform: translateZ(0);
+  z-index: 10;
+}
+
+.floating-rocks {
+  position: absolute;
+}
+
+.front-one {
+  right: -10em;
+}
+
+.front-two {
+  left: -12em;
+}
+
+.back-one {
+  left: -4em;
+  opacity: .2;
+  z-index: 0;
+}
+
+.back-two {
+  right: -20em;
+  opacity: .1;
+  z-index: 0;
+}
+
+.planet-earth {
+  border-radius: 50%;
+  left: -5em;
+  opacity: .8;
+  z-index: 0;
+}
+
+footer {
+  background-size: cover;
+  background: url(../images/moon2.jpg) top center no-repeat;
+  height: 1014px;
+  margin-top: 10em;
+  position: relative;
+}
+
+footer .heading {
+  color: rgba(0,0,0,1);
+  top: 40%;
+  bottom: auto;
+}
+
+.credit {
+  font-size: 1.75em;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+    top: auto;
+    right: 0;
+    bottom: .5em;
+    left: 0;
+}
