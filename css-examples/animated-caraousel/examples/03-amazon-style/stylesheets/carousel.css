@@ -1,0 +1,120 @@
+.carousel-container {
+  height: 18em;
+  margin: 0 auto;
+  width: 80vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel {
+  height: 18em;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  cursor: pointer;
+  opacity: 0;
+  list-style: none;
+  position: absolute;
+    top: 0;
+    left: 50%;
+  transform: translate(calc(100% + 12em), -50%) scale(.6);
+  transition: transform 1.5s cubic-bezier(.2,0,.2,1),
+              opacity 1s cubic-bezier(.8,0,.2,1);
+  height: 18em;
+  width: 80vw;
+  overflow: hidden;
+}
+
+.item-image {
+  background-size: cover;
+  position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  z-index: 0;
+  transition: all 5s cubic-bezier(.2,0,0,1);
+}
+
+.item-image::after {
+  background: linear-gradient(to bottom, rgba(0,0,0,.4) 50%, rgba(0,0,0,.8));
+  content: "";
+  position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.item-text {
+  color: #fff;
+  text-align: center;
+  z-index: 10;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.item-text h2 {
+  font-size: 2em;
+}
+
+.item.previous {
+  opacity: 1;
+  transform: translate(-150%, 0);
+}
+
+.item.current {
+  cursor: default;
+  opacity: 1;
+  transform: translate(-50%, 0);
+  z-index: 10;
+}
+
+.item.next {
+  opacity: 1;
+  transform: translate(50%, 0);
+  z-index: 0;
+}
+
+.control {
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+    top: calc(50%);
+  transform: translateY(-50%);
+  height: 1em;
+  font-size: 2em;
+  line-height: 1;
+  text-shadow: 1px 0 3px #fff;
+  text-align: center;
+  z-index: 20;
+}
+
+.control.previous {
+  width: 1em;
+  height: 1em;
+  left: .25em;
+}
+
+.control.previous:after {
+  content: "<";
+}
+
+.control.next {
+  width: 1em;
+  height: 1em;
+  right: .25em;
+}
+
+.control.next:after {
+  content: ">";
+}
+
