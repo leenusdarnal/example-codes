@@ -4,4 +4,6 @@ use (
 	./01-hello
 	./02-varibles
 	./03-userInput
+	./04-conversion
+	
 )
